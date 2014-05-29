@@ -1,0 +1,851 @@
+TntpA
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/Info.plist /Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist
+cProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetAssociation.o /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/main.o /Users/Jordan/Desktop/ios-ntp/test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAAppDelegate.o /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAViewController.o /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NSDate+NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/GCDAsyncUdpSocket.o /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetAssociation.o /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/main.o /Users/Jordan/Desktop/ios-ntp/test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAAppDelegate.o /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAViewController.o /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NSDate+NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/GCDAsyncUdpSocket.o /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA normal armv7
+cLd /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA normal armv7s
+cCreateUniversalBinary /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA normal armv7\ armv7s
+cGenerateDSYMFile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app.dSYM /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA
+cCpResource resources/ntp.hosts Build/Products/Debug-iphoneos/ntpA.app/ntp.hosts
+cCopyStringsFile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/en.lproj/InfoPlist.strings resources/en.lproj/InfoPlist.strings
+cCompileXIB /Users/Jordan/Desktop/ios-ntp/resources/en.lproj/MainWindow.xib
+cCompileXIB /Users/Jordan/Desktop/ios-ntp/resources/en.lproj/ntpAViewController.xib
+cProcessProductPackaging /Users/Jordan/Library/MobileDevice/Provisioning\ Profiles/2C9C2E95-7A49-41A9-8259-21A47842B360.mobileprovision /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/embedded.mobileprovision
+cTouch /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA.xcent
+cCodeSign /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053481FB20000000000000132
+t1397235634
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000531E3FF30000000000000094
+t1394491379
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000531E3FF30000000000000096
+t1394491379
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531E3FF3000000000000036B
+t1394491379
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E3FF4000000000000019E
+t1394491380
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000531E3FF8000000000063A500
+t1394491384
+s6530304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053481F9400000000004D7BC0
+t1397235604
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531E3FFE0000000000A90C10
+t1394491390
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531E400E0000000002759920
+t1394491406
+s41261344
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch
+t1401381732
+s5299664
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch
+t1401381732
+s5299824
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/GCDAsyncUdpSocket.o
+t1401381740
+s376296
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NSDate+NetworkClock.o
+t1401381739
+s8388
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetAssociation.o
+t1401381733
+s39352
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetworkClock.o
+t1401381739
+s31404
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/main.o
+t1401381733
+s4076
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA
+t1401381740
+s264060
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA.LinkFileList
+c000000005387632E0000000000000381
+t1401381678
+s897
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAAppDelegate.o
+t1401381739
+s66096
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAViewController.o
+t1401381739
+s39184
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/GCDAsyncUdpSocket.o
+t1401381740
+s376312
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NSDate+NetworkClock.o
+t1401381740
+s8388
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetAssociation.o
+t1401381740
+s39384
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetworkClock.o
+t1401381739
+s31404
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/main.o
+t1401381740
+s4076
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA
+t1401381740
+s264068
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA.LinkFileList
+c000000005387632E0000000000000388
+t1401381678
+s904
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAAppDelegate.o
+t1401381740
+s66096
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAViewController.o
+t1401381740
+s39184
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA.xcent
+t1401381741
+s412
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app
+t1401381741
+s306
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app.dSYM
+t2
+s0
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/Info.plist
+t1401381678
+s923
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/PkgInfo
+t1401381678
+s8
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist
+t1401381678
+s150
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/embedded.mobileprovision
+t1401381741
+s22072
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/en.lproj/InfoPlist.strings
+t1401381741
+s126
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/en.lproj/MainWindow.nib
+t1401381741
+s4506
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/en.lproj/ntpAViewController.nib
+t1401381741
+s4047
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntp.hosts
+t1401381741
+s352
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA
+t1401381740
+s558980
+
+N/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.h
+c00000000538762F80000000000006FDE
+t1401381624
+s28638
+
+N/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m
+c00000000538762F8000000000001D1FA
+t1401381624
+s119290
+
+N/Users/Jordan/Desktop/ios-ntp/resources/en.lproj/InfoPlist.strings
+c00000000538762F80000000000000066
+t1401381624
+s102
+
+N/Users/Jordan/Desktop/ios-ntp/resources/en.lproj/MainWindow.xib
+c00000000538762F80000000000007542
+t1401381624
+s30018
+
+N/Users/Jordan/Desktop/ios-ntp/resources/en.lproj/ntpAViewController.xib
+c00000000538762F800000000000069F2
+t1401381624
+s27122
+
+N/Users/Jordan/Desktop/ios-ntp/resources/ntp.hosts
+c00000000538762F80000000000000160
+t1401381624
+s352
+
+N/Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist
+c00000000538762F800000000000003F5
+t1401381624
+s1013
+
+N/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch
+c00000000538763640000000000000390
+t1401381732
+s912
+
+N/Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m
+c00000000538762F80000000000000235
+t1401381624
+s565
+
+N/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.h
+c00000000538762F80000000000001D75
+t1401381624
+s7541
+
+N/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m
+c00000000538763640000000000008793
+t1401381732
+s34707
+
+N/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.h
+c00000000538762F800000000000009BA
+t1401381624
+s2490
+
+N/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m
+c000000005387636B0000000000004865
+t1401381739
+s18533
+
+N/Users/Jordan/Desktop/ios-ntp/test/main.m
+c00000000538762F80000000000000165
+t1401381624
+s357
+
+N/Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m
+c00000000538762F80000000000000D5D
+t1401381624
+s3421
+
+N/Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m
+c00000000538762F8000000000000016B
+t1401381624
+s363
+
+N/Users/Jordan/Library/MobileDevice/Provisioning Profiles/2C9C2E95-7A49-41A9-8259-21A47842B360.mobileprovision
+c00000000533AC93B0000000000005638
+t1396361531
+s22072
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/test/main.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa73bc3eb9a37b941^11fccfeb9a37b941^---0#1#1#--18"Check dependencies36"CC18349C-2A12-48EF-90F7-76319F50A1FE-
+
+CCodeSign /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app
+s423074541.404312
+e423074541.678337
+r1
+xCodeSign
+x/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"CodeSign Build/Products/Debug-iphoneos/ntpA.app47"CodeSign Build/Products/Debug-iphoneos/ntpA.app416568ed9a37b941^ae9caded9a37b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/0000000000000000^955"CodeSign Build/Products/Debug-iphoneos/ntpA.app    cd /Users/Jordan/Desktop/ios-ntp    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Jordan Whitney (F627DNSSUE)" and provisioning profile "iOS Team Provisioning Profile: *" (2C9C2E95-7A49-41A9-8259-21A47842B360)    /usr/bin/codesign --force --sign ED6584F1FE5F6604763E98DBB9292AFA063573EA --resource-rules=/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist --entitlements /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA.xcent /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app36"741CE3CE-387B-4B86-A790-6006C6BF3984-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/GCDAsyncUdpSocket.o /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074539.908425
+e423074540.550313
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/GCDAsyncUdpSocket.o
+x/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m202"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/GCDAsyncUdpSocket.o lib/GCDAsyncUdpSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler34b9e8eb9a37b941^b0e28cec9a37b941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m0000000000000000^3169"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/GCDAsyncUdpSocket.o lib/GCDAsyncUdpSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7 -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/GCDAsyncUdpSocket.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/GCDAsyncUdpSocket.dia -c /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/GCDAsyncUdpSocket.o36"2D97D137-B653-4723-8D5F-ECBB40C21FDF-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NSDate+NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074539.855692
+e423074539.923872
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NSDate+NetworkClock.o
+x/Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m
+d/Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.h
+d/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.h
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.h
+d/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m206"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NSDate+NetworkClock.o src/NSDate+NetworkClock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler6134dbeb9a37b941^aa9aeceb9a37b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m0000000000000000^3181"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NSDate+NetworkClock.o src/NSDate+NetworkClock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7 -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NSDate+NetworkClock.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NSDate+NetworkClock.dia -c /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NSDate+NetworkClock.o36"409CB177-AEA7-48F3-8938-839783D39255-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetAssociation.o /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074533.006037
+e423074533.333494
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetAssociation.o
+x/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m
+d/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.h
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m196"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetAssociation.o src/NetAssociation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler84bd01e59a37b941^d3bc57e59a37b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m0000000000000000^3151"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetAssociation.o src/NetAssociation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7 -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetAssociation.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetAssociation.dia -c /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetAssociation.o36"D146CBD0-83D0-4CA1-AC09-68EFE4CC02C6-
+b32473879-B6EA-4924-A3A9-617459A42E9C
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074539.765603
+e423074539.907050
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetworkClock.o
+x/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m
+d/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.h
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.h
+d/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m192"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetworkClock.o src/NetworkClock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compileraf25c4eb9a37b941^c66de8eb9a37b941^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m0000000000000000^3139"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetworkClock.o src/NetworkClock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7 -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetworkClock.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetworkClock.dia -c /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetworkClock.o36"A6C96FF9-86DD-4D58-BEB7-71003C6159DA-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/main.o /Users/Jordan/Desktop/ios-ntp/test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074533.006792
+e423074533.232442
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/main.o
+x/Users/Jordan/Desktop/ios-ntp/test/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/test/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/Jordan/Desktop/ios-ntp/test/main.m177"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/main.o test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler44df01e59a37b941^093557e59a37b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/Jordan/Desktop/ios-ntp/test/main.m0000000000000000^3093"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/main.o test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7 -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/main.dia -c /Users/Jordan/Desktop/ios-ntp/test/main.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/main.o36"A031A2B2-C482-41BE-9765-9CF83A62FB7C-
+b32473879-B6EA-4924-A3A9-617459A42E9C
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAAppDelegate.o /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074539.766223
+e423074539.916894
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAAppDelegate.o
+x/Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m
+d/Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.h
+d/Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.h
+d/Users/Jordan/Desktop/ios-ntp/src/ios-ntp.h
+d/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.h
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.h
+d/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.h
+d/Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m199"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAAppDelegate.o test/ntpAAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler014dc4eb9a37b941^f834ebeb9a37b941^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m0000000000000000^3159"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAAppDelegate.o test/ntpAAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7 -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAAppDelegate.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAAppDelegate.dia -c /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAAppDelegate.o36"642F860E-BEDF-4A04-B22E-408659BCB62E-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAViewController.o /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074539.766803
+e423074539.853831
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAViewController.o
+x/Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m
+d/Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m205"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAViewController.o test/ntpAViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerbf7ec4eb9a37b941^1aa2daeb9a37b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m0000000000000000^3177"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAViewController.o test/ntpAViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7 -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAViewController.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAViewController.dia -c /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAViewController.o36"D806C9F3-EECC-4E2D-B118-698043F060EC-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/GCDAsyncUdpSocket.o /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074540.120404
+e423074540.626447
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/GCDAsyncUdpSocket.o
+x/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m204"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/GCDAsyncUdpSocket.o lib/GCDAsyncUdpSocket.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler44f91eec9a37b941^a262a0ec9a37b941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m0000000000000000^3176"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/GCDAsyncUdpSocket.o lib/GCDAsyncUdpSocket.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7s -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/GCDAsyncUdpSocket.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/GCDAsyncUdpSocket.dia -c /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/GCDAsyncUdpSocket.o36"44F87E02-A46D-4393-87E1-ECEC6A6A19ED-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NSDate+NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074540.114116
+e423074540.163039
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NSDate+NetworkClock.o
+x/Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m
+d/Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.h
+d/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.h
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.h
+d/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m208"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NSDate+NetworkClock.o src/NSDate+NetworkClock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerc2881dec9a37b941^bebf29ec9a37b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m0000000000000000^3188"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NSDate+NetworkClock.o src/NSDate+NetworkClock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7s -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NSDate+NetworkClock.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NSDate+NetworkClock.dia -c /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NSDate+NetworkClock.o36"F2BC9F50-1254-4205-BD67-FFE5DECCAF33-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetAssociation.o /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074539.917623
+e423074540.012143
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetAssociation.o
+x/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m
+d/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.h
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m198"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetAssociation.o src/NetAssociation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler3751ebeb9a37b941^f83403ec9a37b941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m0000000000000000^3158"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetAssociation.o src/NetAssociation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7s -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetAssociation.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetAssociation.dia -c /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetAssociation.o36"DF0E66AD-62D7-4D57-9E8A-DAFABAF43ECA-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074539.924731
+e423074540.001978
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetworkClock.o
+x/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m
+d/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.h
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.h
+d/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m194"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetworkClock.o src/NetworkClock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler0de1eceb9a37b941^649300ec9a37b941^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m0000000000000000^3146"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetworkClock.o src/NetworkClock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7s -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetworkClock.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetworkClock.dia -c /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetworkClock.o36"0D533EFE-1BC2-4C64-9F88-EA24DB35B8B0-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/main.o /Users/Jordan/Desktop/ios-ntp/test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074540.002655
+e423074540.033849
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/main.o
+x/Users/Jordan/Desktop/ios-ntp/test/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/test/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/Jordan/Desktop/ios-ntp/test/main.m179"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/main.o test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler45d400ec9a37b941^297a10ec9a37b941^---0#0#1#-19%DVTDocumentLocation2@48"file:///Users/Jordan/Desktop/ios-ntp/test/main.m0000000000000000^3100"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/main.o test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7s -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/main.dia -c /Users/Jordan/Desktop/ios-ntp/test/main.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/main.o36"AE3D5A97-F024-483E-B3D4-E3A1E0853DD2-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAAppDelegate.o /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074540.011667
+e423074540.119652
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAAppDelegate.o
+x/Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m
+d/Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.h
+d/Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.h
+d/Users/Jordan/Desktop/ios-ntp/src/ios-ntp.h
+d/Users/Jordan/Desktop/ios-ntp/src/NetAssociation.h
+d/Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.h
+d/Users/Jordan/Desktop/ios-ntp/src/NetworkClock.h
+d/Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m201"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAAppDelegate.o test/ntpAAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerf72103ec9a37b941^064622ec9a37b941^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m0000000000000000^3166"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAAppDelegate.o test/ntpAAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7s -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAAppDelegate.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAAppDelegate.dia -c /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAAppDelegate.o36"C78C6B5F-465D-4F10-AC5E-67A225AFCCE5-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAViewController.o /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074540.034665
+e423074540.113109
+r1
+xCompileC
+xBuild/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAViewController.o
+x/Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m
+d/Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m207"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAViewController.o test/ntpAViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler4a0909ec9a37b941^b13622ec9a37b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m0000000000000000^3184"CompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAViewController.o test/ntpAViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7s -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -include /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAViewController.d --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAViewController.dia -c /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAViewController.o36"53DF6AAB-A53F-4305-A02A-38510F1B4985-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileXIB /Users/Jordan/Desktop/ios-ntp/resources/en.lproj/MainWindow.xib
+s423074541.034755
+e423074541.388920
+r1
+xCompileXIB
+x/Users/Jordan/Desktop/ios-ntp/resources/en.lproj/MainWindow.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compiling /Users/Jordan/Desktop/ios-ntp/resources/en.lproj/MainWindow.xib44"CompileXIB resources/en.lproj/MainWindow.xibd10509ed9a37b941^b4ac63ed9a37b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/Jordan/Desktop/ios-ntp/resources/en.lproj/MainWindow.xib0000000000000000^687"CompileXIB resources/en.lproj/MainWindow.xib    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 4.0 --output-format human-readable-text --compile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/en.lproj/MainWindow.nib /Users/Jordan/Desktop/ios-ntp/resources/en.lproj/MainWindow.xib36"6C80AF0D-C448-4805-B3C4-5229761D21BF-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCompileXIB /Users/Jordan/Desktop/ios-ntp/resources/en.lproj/ntpAViewController.xib
+s423074541.036251
+e423074541.379567
+r1
+xCompileXIB
+x/Users/Jordan/Desktop/ios-ntp/resources/en.lproj/ntpAViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compiling /Users/Jordan/Desktop/ios-ntp/resources/en.lproj/ntpAViewController.xib52"CompileXIB resources/en.lproj/ntpAViewController.xib7d5e09ed9a37b941^3d2b61ed9a37b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/Jordan/Desktop/ios-ntp/resources/en.lproj/ntpAViewController.xib0000000000000000^711"CompileXIB resources/en.lproj/ntpAViewController.xib    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 4.0 --output-format human-readable-text --compile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/en.lproj/ntpAViewController.nib /Users/Jordan/Desktop/ios-ntp/resources/en.lproj/ntpAViewController.xib36"99D15ECC-3C00-47D6-837A-BD68379176DA-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCopyStringsFile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/en.lproj/InfoPlist.strings resources/en.lproj/InfoPlist.strings
+s423074541.034430
+e423074541.134700
+r1
+xCopyStringsFile
+x/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/en.lproj/InfoPlist.strings
+xresources/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy resources/en.lproj/InfoPlist.strings118"CopyStringsFile Build/Products/Debug-iphoneos/ntpA.app/en.lproj/InfoPlist.strings resources/en.lproj/InfoPlist.strings95f008ed9a37b941^4e4724ed9a37b941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/Jordan/Desktop/ios-ntp/resources/en.lproj/InfoPlist.strings0000000000000000^552"CopyStringsFile Build/Products/Debug-iphoneos/ntpA.app/en.lproj/InfoPlist.strings resources/en.lproj/InfoPlist.strings    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/en.lproj -- resources/en.lproj/InfoPlist.strings36"AB4BF5BA-8565-435F-86C1-1316AD1EAF35-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist
+s423074478.354463
+e423074478.357277
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist191"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plistc2dc5aae9a37b941^2f875dae9a37b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist0034a807deffdf42^720"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app36"56CE2640-042B-40C6-A4BC-90C1360DABD2-
+b84C2A667-3284-4337-97B8-C1FF27B55238
+
+CCpResource resources/ntp.hosts Build/Products/Debug-iphoneos/ntpA.app/ntp.hosts
+s423074541.034205
+e423074541.035851
+r1
+xCpResource
+xresources/ntp.hosts
+xBuild/Products/Debug-iphoneos/ntpA.app/ntp.hosts
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy Build/Products/Debug-iphoneos/ntpA.app/ntp.hosts79"CpResource resources/ntp.hosts Build/Products/Debug-iphoneos/ntpA.app/ntp.hosts89d408ed9a37b941^772c22ed9a37b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntp.hosts0034a807deffdf42^536"CpResource resources/ntp.hosts Build/Products/Debug-iphoneos/ntpA.app/ntp.hosts    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jordan/Desktop/ios-ntp/resources/ntp.hosts /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app36"935C97BA-CB43-42DB-B6AD-49B5660F3F7C-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CCreateUniversalBinary /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA normal armv7\ armv7s
+s423074540.922910
+e423074540.939249
+r1
+xCreateUniversalBinary
+x/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA
+xnormal
+xarmv7 armv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Create universal binary /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA86"CreateUniversalBinary Build/Products/Debug-iphoneos/ntpA.app/ntpA normal armv7\ armv7s1f69ecec9a37b941^f31f22ed9a37b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA0034a807deffdf42^731"CreateUniversalBinary Build/Products/Debug-iphoneos/ntpA.app/ntpA normal armv7\ armv7s    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA -output /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA36"FBDC6424-688A-4EC8-A695-AB9B3FFDC321-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CGenerateDSYMFile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app.dSYM /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA
+s423074540.940284
+e423074541.033682
+r1
+xGenerateDSYMFile
+x/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app.dSYM
+x/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Generate /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app.dSYM104"GenerateDSYMFile Build/Products/Debug-iphoneos/ntpA.app.dSYM Build/Products/Debug-iphoneos/ntpA.app/ntpA1f68f1ec9a37b941^3e2622ed9a37b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app.dSYM0034a807deffdf42^581"GenerateDSYMFile Build/Products/Debug-iphoneos/ntpA.app.dSYM Build/Products/Debug-iphoneos/ntpA.app/ntpA    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA -o /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app.dSYM36"FCA4CD25-B5F3-4E02-8ED8-2D33150FED12-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CLd /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA normal armv7
+s423074540.627757
+e423074540.918074
+r1
+xLd
+x/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA
+xnormal
+xarmv7
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetAssociation.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetworkClock.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/main.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAAppDelegate.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAViewController.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NSDate+NetworkClock.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/GCDAsyncUdpSocket.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libgcc_s.1.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Link /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA101"Ld Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA normal armv73acba0ec9a37b941^501a22ed9a37b941^---0#0#1#--1286"Ld Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA normal armv7    cd /Users/Jordan/Desktop/ios-ntp    export IPHONEOS_DEPLOYMENT_TARGET=4.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -filelist /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.0 -framework UIKit -framework Foundation -framework CoreGraphics -framework CFNetwork -Xlinker -dependency_info -Xlinker /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA_dependency_info.dat -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA36"FBC37648-BA0F-4379-825E-0CFBB4F5445A-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CLd /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA normal armv7s
+s423074540.628373
+e423074540.917449
+r1
+xLd
+x/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA
+xnormal
+xarmv7s
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetAssociation.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetworkClock.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/main.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAAppDelegate.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAViewController.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NSDate+NetworkClock.o
+d/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/GCDAsyncUdpSocket.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libgcc_s.1.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Link /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA103"Ld Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA normal armv7sc7f4a0ec9a37b941^7f1322ed9a37b941^---0#0#1#--1292"Ld Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA normal armv7s    cd /Users/Jordan/Desktop/ios-ntp    export IPHONEOS_DEPLOYMENT_TARGET=4.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos -filelist /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.0 -framework UIKit -framework Foundation -framework CoreGraphics -framework CFNetwork -Xlinker -dependency_info -Xlinker /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA_dependency_info.dat -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA36"535D8CFB-201F-498A-BFFD-69D7EACD447F-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CProcessInfoPlistFile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/Info.plist /Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist
+s423074478.346092
+e423074478.353772
+r1
+xProcessInfoPlistFile
+x/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/Info.plist
+x/Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Process /Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist96"ProcessInfoPlistFile Build/Products/Debug-iphoneos/ntpA.app/Info.plist resources/ntpA-Info.plistcbb958ae9a37b941^247e5dae9a37b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist0000000000000000^742"ProcessInfoPlistFile Build/Products/Debug-iphoneos/ntpA.app/Info.plist resources/ntpA-Info.plist    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist -genpkginfo /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist -o /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/Info.plist36"96547DC3-79FA-484F-956B-65EB61964E3A-
+b84C2A667-3284-4337-97B8-C1FF27B55238
+
+CProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-ajfhryxubgdtwlenoiwpzvsnfmur/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-apwqwtxsoudqitamdvvwhhwjqbqs/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074532.428467
+e423074533.005219
+r1
+xProcessPCH
+x/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch
+xresources/ntpA_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch
+o/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:12:6: warning: "DARWIN_BIG_ENDIAN" [-W#warnings]
+o    #warning "DARWIN_BIG_ENDIAN"
+o     ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile resources/ntpA_Prefix.pch205"ProcessPCH Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler11df6de49a37b941^795701e59a37b941^-166"/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:12:6: warning: "DARWIN_BIG_ENDIAN" [-W#warnings]    #warning "DARWIN_BIG_ENDIAN"     ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@19""DARWIN_BIG_ENDIAN"-423074533#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@62"file:///Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch0000000000000000^11#5#11#5#281#0#18"#warning Directive--0#0#1#-19%DVTDocumentLocation4@62"file:///Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch0000000000000000^3039"ProcessPCH Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7 -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.dia -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.d -c /Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch36"854E8AFE-1322-4E0E-A05E-62A15B964A63-
+b32473879-B6EA-4924-A3A9-617459A42E9C
+
+CProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074532.428753
+e423074533.001235
+r1
+xProcessPCH
+x/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch
+xresources/ntpA_Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch
+o/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:12:6: warning: "DARWIN_BIG_ENDIAN" [-W#warnings]
+o    #warning "DARWIN_BIG_ENDIAN"
+o     ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile resources/ntpA_Prefix.pch206"ProcessPCH Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerbf106ee49a37b941^115500e59a37b941^-166"/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:12:6: warning: "DARWIN_BIG_ENDIAN" [-W#warnings]    #warning "DARWIN_BIG_ENDIAN"     ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@19""DARWIN_BIG_ENDIAN"-423074533#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@62"file:///Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch0000000000000000^11#5#11#5#281#0#18"#warning Directive--0#0#1#-19%DVTDocumentLocation4@62"file:///Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch0000000000000000^3042"ProcessPCH Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7s -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.dia -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.d -c /Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch36"2C551253-44D7-4518-B897-B6A1AFA9B569-
+b32473879-B6EA-4924-A3A9-617459A42E9C
+
+CProcessPCH /Users/Jordan/Library/Developer/Xcode/DerivedData/ios-ntp-awaixklpsbkyqjduooaytkvqexmk/Index/PrecompiledHeaders/ntpA_Prefix-artiaaborhtcbzapjrkyvkhbtpui_ast/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Jordan/Library/Developer/Xcode/DerivedData/ios-ntp-awaixklpsbkyqjduooaytkvqexmk/Index/PrecompiledHeaders/ntpA_Prefix-bpzburkmbjhfgigakcxyrjfzezlt_ast/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Jordan/Library/Developer/Xcode/DerivedData/ios-ntp-awaixklpsbkyqjduooaytkvqexmk/Index/PrecompiledHeaders/ntpA_Prefix-ctuibpbbejztfyerqyvbvqgykdju_ast/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Jordan/Library/Developer/Xcode/DerivedData/ios-ntp-awaixklpsbkyqjduooaytkvqexmk/Index/PrecompiledHeaders/ntpA_Prefix-dojefiythpoyzpgobkvdpwiflhoz_ast/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA.xcent
+s423074541.396630
+e423074541.403805
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection215"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA.xcent215"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA.xcentf29865ed9a37b941^956267ed9a37b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA.xcent0034a807deffdf42^728"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA.xcent    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA.xcent36"07A2566E-BF8A-40C3-B0CF-2C4B7DB9583F-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CProcessProductPackaging /Users/Jordan/Library/MobileDevice/Provisioning\ Profiles/2C9C2E95-7A49-41A9-8259-21A47842B360.mobileprovision /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/embedded.mobileprovision
+s423074541.389672
+e423074541.395679
+r1
+xProcessProductPackaging
+x/Users/Jordan/Library/MobileDevice/Provisioning Profiles/2C9C2E95-7A49-41A9-8259-21A47842B360.mobileprovision
+x/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection198"ProcessProductPackaging /Users/Jordan/Library/MobileDevice/Provisioning\ Profiles/2C9C2E95-7A49-41A9-8259-21A47842B360.mobileprovision Build/Products/Debug-iphoneos/ntpA.app/embedded.mobileprovision198"ProcessProductPackaging /Users/Jordan/Library/MobileDevice/Provisioning\ Profiles/2C9C2E95-7A49-41A9-8259-21A47842B360.mobileprovision Build/Products/Debug-iphoneos/ntpA.app/embedded.mobileprovision90db63ed9a37b941^7b4b65ed9a37b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/embedded.mobileprovision0034a807deffdf42^668"ProcessProductPackaging /Users/Jordan/Library/MobileDevice/Provisioning\ Profiles/2C9C2E95-7A49-41A9-8259-21A47842B360.mobileprovision Build/Products/Debug-iphoneos/ntpA.app/embedded.mobileprovision    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/Jordan/Library/MobileDevice/Provisioning\ Profiles/2C9C2E95-7A49-41A9-8259-21A47842B360.mobileprovision -o /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/embedded.mobileprovision36"ABA9E4D4-37A6-4221-9D9D-7D68DB04B5EB-
+b78BB2F6D-30BA-41FE-99CC-9D2AAEB663CC
+
+CTouch /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app
+r0
+

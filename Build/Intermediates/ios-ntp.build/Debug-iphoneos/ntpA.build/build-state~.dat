@@ -1,0 +1,239 @@
+TntpA
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/Info.plist /Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist
+cProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000531E3FF30000000000000096
+t1394491379
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531E3FF3000000000000036B
+t1394491379
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E3FF4000000000000019E
+t1394491380
+s414
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch
+t2
+s0
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch
+t2
+s0
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/Info.plist
+t2
+s0
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/PkgInfo
+t2
+s0
+
+N/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist
+t2
+s0
+
+N/Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist
+c00000000538762F800000000000003F5
+t1401381624
+s1013
+
+N/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch
+c000000005387632E0000000000000392
+t1401381678
+s914
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/test/main.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m
+r0
+
+CBuild AST from /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9eed35ae9a37b941^a1a359ae9a37b941^---0#1#1#--18"Check dependencies36"D28803C3-473B-4ECA-A883-1F5D6BF460A4-
+
+CCodeSign /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/GCDAsyncUdpSocket.o /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NSDate+NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetAssociation.o /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/main.o /Users/Jordan/Desktop/ios-ntp/test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAAppDelegate.o /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpAViewController.o /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/GCDAsyncUdpSocket.o /Users/Jordan/Desktop/ios-ntp/lib/GCDAsyncUdpSocket.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NSDate+NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NSDate+NetworkClock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetAssociation.o /Users/Jordan/Desktop/ios-ntp/src/NetAssociation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/NetworkClock.o /Users/Jordan/Desktop/ios-ntp/src/NetworkClock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/main.o /Users/Jordan/Desktop/ios-ntp/test/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAAppDelegate.o /Users/Jordan/Desktop/ios-ntp/test/ntpAAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpAViewController.o /Users/Jordan/Desktop/ios-ntp/test/ntpAViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileXIB /Users/Jordan/Desktop/ios-ntp/resources/en.lproj/MainWindow.xib
+r0
+
+CCompileXIB /Users/Jordan/Desktop/ios-ntp/resources/en.lproj/ntpAViewController.xib
+r0
+
+CCopyStringsFile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/en.lproj/InfoPlist.strings resources/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist
+s423074478.354463
+e423074478.357277
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist191"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plistc2dc5aae9a37b941^2f875dae9a37b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist0034a807deffdf42^720"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app36"56CE2640-042B-40C6-A4BC-90C1360DABD2-
+b84C2A667-3284-4337-97B8-C1FF27B55238
+
+CCpResource resources/ntp.hosts Build/Products/Debug-iphoneos/ntpA.app/ntp.hosts
+r0
+
+CCreateUniversalBinary /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA normal armv7\ armv7s
+r0
+
+CGenerateDSYMFile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app.dSYM /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ntpA
+r0
+
+CLd /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7/ntpA normal armv7
+r0
+
+CLd /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/Objects-normal/armv7s/ntpA normal armv7s
+r0
+
+CProcessInfoPlistFile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/Info.plist /Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist
+s423074478.346092
+e423074478.353772
+r1
+xProcessInfoPlistFile
+x/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/Info.plist
+x/Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Process /Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist96"ProcessInfoPlistFile Build/Products/Debug-iphoneos/ntpA.app/Info.plist resources/ntpA-Info.plistcbb958ae9a37b941^247e5dae9a37b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist0000000000000000^742"ProcessInfoPlistFile Build/Products/Debug-iphoneos/ntpA.app/Info.plist resources/ntpA-Info.plist    cd /Users/Jordan/Desktop/ios-ntp    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/Jordan/Desktop/ios-ntp/resources/ntpA-Info.plist -genpkginfo /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/ResourceRules.plist -o /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/Info.plist36"96547DC3-79FA-484F-956B-65EB61964E3A-
+b84C2A667-3284-4337-97B8-C1FF27B55238
+
+CProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-ajfhryxubgdtwlenoiwpzvsnfmur/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-apwqwtxsoudqitamdvvwhhwjqbqs/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074478.360474
+e423074478.963031
+r0
+xProcessPCH
+x/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch
+xresources/ntpA_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch
+o/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:12:6: warning: "DARWIN_BIG_ENDIAN" [-W#warnings]
+o    #warning "DARWIN_BIG_ENDIAN"
+o     ^
+o/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:22:32: error: macro name missing
+o#define //NTP_Logging(fmt, ...)
+o                               ^
+o1 warning and 1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile resources/ntpA_Prefix.pch205"ProcessPCH Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler1f695cae9a37b941^728af6ae9a37b941^-332"/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:12:6: warning: "DARWIN_BIG_ENDIAN" [-W#warnings]    #warning "DARWIN_BIG_ENDIAN"     ^/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:22:32: error: macro name missing#define //NTP_Logging(fmt, ...)                               ^1 warning and 1 error generated.-0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch0000000000000000^3039"ProcessPCH Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7 -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.dia -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.d -c /Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dnwvzyxsnyoosbdyxehlsojbdbba/ntpA_Prefix.pch.pch36"8901E1C1-CF72-48DF-9C99-89341536D5F6-
+b84C2A667-3284-4337-97B8-C1FF27B55238
+
+CProcessPCH /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423074478.359917
+e423074478.862224
+r0
+xProcessPCH
+x/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch
+xresources/ntpA_Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch
+o/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:12:6: warning: "DARWIN_BIG_ENDIAN" [-W#warnings]
+o    #warning "DARWIN_BIG_ENDIAN"
+o     ^
+o/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:22:32: error: macro name missing
+o#define //NTP_Logging(fmt, ...)
+o                               ^
+o1 warning and 1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile resources/ntpA_Prefix.pch206"ProcessPCH Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd34b5cae9a37b941^24b5dcae9a37b941^-332"/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:12:6: warning: "DARWIN_BIG_ENDIAN" [-W#warnings]    #warning "DARWIN_BIG_ENDIAN"     ^/Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch:22:32: error: macro name missing#define //NTP_Logging(fmt, ...)                               ^1 warning and 1 error generated.2(36%IDEClangDiagnosticActivityLogMessage2@19""DARWIN_BIG_ENDIAN"-423074478#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@62"file:///Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch0000000000000000^11#5#11#5#281#0#18"#warning Directive--2@18"Macro name missing-423074478#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@62"file:///Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch0000000000000000^21#31#21#31#480#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@62"file:///Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch0000000000000000^3042"ProcessPCH Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jordan/Desktop/ios-ntp    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DIOS_NTP_LOGGING -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-generated-files.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-own-target-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-all-target-headers.hmap -iquote /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA-project-headers.hmap -I/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources/armv7s -I/Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/DerivedSources -F/Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.dia -MMD -MT dependencies -MF /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.d -c /Users/Jordan/Desktop/ios-ntp/resources/ntpA_Prefix.pch -o /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/PrecompiledHeaders/ntpA_Prefix-dypwqrmxebxzknbgxvnwrobezzbr/ntpA_Prefix.pch.pch36"C650728D-EADE-4B53-95FB-D2820EDF0A54-
+b84C2A667-3284-4337-97B8-C1FF27B55238
+
+CProcessPCH /Users/Jordan/Library/Developer/Xcode/DerivedData/ios-ntp-awaixklpsbkyqjduooaytkvqexmk/Index/PrecompiledHeaders/ntpA_Prefix-artiaaborhtcbzapjrkyvkhbtpui_ast/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Jordan/Library/Developer/Xcode/DerivedData/ios-ntp-awaixklpsbkyqjduooaytkvqexmk/Index/PrecompiledHeaders/ntpA_Prefix-bpzburkmbjhfgigakcxyrjfzezlt_ast/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Jordan/Library/Developer/Xcode/DerivedData/ios-ntp-awaixklpsbkyqjduooaytkvqexmk/Index/PrecompiledHeaders/ntpA_Prefix-ctuibpbbejztfyerqyvbvqgykdju_ast/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Jordan/Library/Developer/Xcode/DerivedData/ios-ntp-awaixklpsbkyqjduooaytkvqexmk/Index/PrecompiledHeaders/ntpA_Prefix-dojefiythpoyzpgobkvdpwiflhoz_ast/ntpA_Prefix.pch.pch resources/ntpA_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Jordan/Desktop/ios-ntp/Build/Intermediates/ios-ntp.build/Debug-iphoneos/ntpA.build/ntpA.xcent
+r0
+
+CProcessProductPackaging /Users/Jordan/Library/MobileDevice/Provisioning\ Profiles/2C9C2E95-7A49-41A9-8259-21A47842B360.mobileprovision /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app/embedded.mobileprovision
+r0
+
+CTouch /Users/Jordan/Desktop/ios-ntp/Build/Products/Debug-iphoneos/ntpA.app
+r0
+
