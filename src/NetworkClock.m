@@ -224,7 +224,7 @@
   ┃ applicationBack -- catch the notification when the application goes into the background          ┃
   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛*/
 - (void) applicationBack:(NSNotification *) notification {
-    LogInProduction(@"*** application -> Background");
+    //LogInProduction(@"*** application -> Background");
     [self finishAssociations];
 }
 
@@ -232,7 +232,7 @@
   ┃ applicationFore -- catch the notification when the application comes out of the background       ┃
   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛*/
 - (void) applicationFore:(NSNotification *) notification {
-    LogInProduction(@"*** application -> Foreground");
+    //LogInProduction(@"*** application -> Foreground");
     [self enableAssociations];
 }
 
